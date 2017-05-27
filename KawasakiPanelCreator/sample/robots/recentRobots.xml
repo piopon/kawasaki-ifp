@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<recentRobots>
+	<robot name="pakietyNPG" IP="10.0.24.5" port="27" type="ZD130S-D001" cont="D TYPE">
+		<source file="robots//pakietyNPG_IP100245.as"/>
+		<groupAS id="AS GROUP: AS_R1G0031L ">
+			<userAS>UASR1G0031L 2009/09/17 10:35
+</userAS>
+			<userTP>UTPR1G0031L 2009/09/17 10:47
+</userTP>
+			<armCtrl>AASR1G0031L 2009/09/17 10:50
+</armCtrl>
+			<armData>ARMR1G0031L 2009/09/17 09:47
+</armData>
+			<msgFile>MAS1G031LEN 2009/09/17 10:33
+</msgFile>
+		</groupAS>
+		<groupSERVO id="SERVO GROUP: SV_R500000F ">
+			<control>ASVR500000F 2009/10/06 17:49
+</control>
+			<dataFile>ASPR500000F 2009/10/06 17:52
+</dataFile>
+		</groupSERVO>
+	</robot>
+	<robot name="montazNPG" IP="10.0.21.239" port="27" type="ZD130S-D001" cont="D TYPE">
+		<source file="robots//montazNPG_IP10021239.as"/>
+		<groupAS id="AS GROUP: AS_R1G0031L ">
+			<userAS>UASR1G0031L 2009/09/17 10:35
+</userAS>
+			<userTP>UTPR1G0031L 2009/09/17 10:47
+</userTP>
+			<armCtrl>AASR1G0031L 2009/09/17 10:50
+</armCtrl>
+			<armData>ARMR1G0031L 2009/09/17 09:47
+</armData>
+			<msgFile>MAS1G031LEN 2009/09/17 10:33
+</msgFile>
+		</groupAS>
+		<groupSERVO id="SERVO GROUP: SV_R500000F ">
+			<control>ASVR500000F 2009/10/06 17:49
+</control>
+			<dataFile>ASPR500000F 2009/10/06 17:52
+</dataFile>
+		</groupSERVO>
+	</robot>
+</recentRobots>
