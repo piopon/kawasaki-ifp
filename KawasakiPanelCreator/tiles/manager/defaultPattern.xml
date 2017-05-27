@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<patternTiles>
+	<tile ID="1" type="2" sigNo="0" excl="true">
+		<backg color="gray"/>
+		<lamp on="paleBlue" off="red"/>
+		<label1 color="navy">PILOT LAMP</label1>
+		<label2 color="navy"/>
+		<label3 color="navy"/>
+		<label4 color="navy"/>
+	</tile>
+	<tile ID="2" type="2" sigNo="0" oper="false">
+		<backg on="orange" off="yellow"/>
+		<label1 color="black">   PUSH</label1>
+		<label2 color="black">  BUTTON</label2>
+		<label3 color="black"/>
+		<label4 color="black"/>
+	</tile>
+	<tile ID="3" type="2" sigBcg="0" sigLamp="0" oper="false">
+		<backg on="white1" off="black"/>
+		<label1 color="green">   PUSH</label1>
+		<label2 color="green">  BUTTON</label2>
+		<label3 color="green">   WITH</label3>
+		<label4 color="green">   LAMP</label4>
+	</tile>
+	<tile ID="4" type="2" sigL_U="0" sigR_D="0" oper="false" rotDisp="true">
+		<backg L_U="yellow" R_D="blue"/>
+		<label1 color="black">2 SELECTOR</label1>
+		<label2 color="black"/>
+		<label3 color="black"/>
+		<label4 color="black"/>
+	</tile>
+	<tile ID="5" type="2" sigL_U="1" sigM="7" sigR_D="2" oper="false" rotDisp="false">
+		<backg L_U="red" M="yellow" R_D="green"/>
+		<label1 color="black">3 SELECTOR</label1>
+		<label2 color="black">action 1</label2>
+		<label3 color="black">action 2</label3>
+		<label4 color="black">action 3</label4>
+	</tile>
+	<tile ID="6" type="2" backg="redBrown" minus="false" bcd="true" keys="false" oper="false">
+		<sig top="0" no="8" fig="4" lim="false" limUp="0" limLow="0"/>
+		<label1 color="navy">  DIGITAL</label1>
+		<label2 color="navy">  SWITCH</label2>
+	</tile>
+	<tile ID="7" type="2" backg="green" minus="false" bcd="true">
+		<sig top="0" no="8" fig="4"/>
+		<label1 color="darkGreen">  DIGITAL</label1>
+		<label2 color="darkGreen">  DISPLAY</label2>
+	</tile>
+	<tile ID="8" type="2" backg="red" oper="false" int="true">
+		<variable name="" figNo="2"/>
+		<label1 color="orange"> VARIABLE</label1>
+		<label2 color="orange">  DISPLAY</label2>
+	</tile>
+	<tile ID="9" type="2" backg="paleBlue" num="1" size="1"/>
+	<tile ID="10" type="2" oper="false">
+		<command no="1"/>
+		<backg on="blue" off="orange"/>
+		<label1 color="darkGreen">  MONITOR</label1>
+		<label2 color="darkGreen">  COMMAND</label2>
+		<label3 color="darkGreen"/>
+		<label4 color="darkGreen"/>
+	</tile>
+	<tile ID="13" type="2" sigNo="0" sigLamp="0">
+		<pattern no="3" workNo="2" frame="false"/>
+		<backg one="yellow" two="blue"/>
+		<label1 color="white1"> PALLETIZE</label1>
+		<label2 color="white1"/>
+		<label3 color="white1"/>
+		<label4 color="white1">   ICON</label4>
+	</tile>
+	<tile ID="14" type="2" backg="lavender" oper="false">
+		<variable/>
+		<label1 color="darkGreen">  STRING</label1>
+		<label2 color="darkGreen"> DATA DISP</label2>
+	</tile>
+	<tile ID="15" type="2" sigL_U="0" sigR_D="0" sigLamp="0" oper="false" rotDisp="true">
+		<backg L_U="red" R_D="yellow"/>
+		<label1 color="navy">2 SELECTOR</label1>
+		<label2 color="navy">WITH LAMP</label2>
+		<label3 color="navy"/>
+		<label4 color="navy"/>
+	</tile>
+	<tile ID="16" type="2" sigL_U="0" sigM="0" sigR_D="0" sigLamp="0" oper="false" rotDisp="true">
+		<backg L_U="blue" M="cyan" R_D="cyan"/>
+		<label1 color="red">3 SELECTOR</label1>
+		<label2 color="red">WITH LAMP</label2>
+		<label3 color="red"/>
+		<label4 color="red"/>
+	</tile>
+	<tile ID="21" type="2" sigNo="0" part="0">
+		<label1 color="black">SERVO DISP</label1>
+		<label2 color="black"/>
+		<label3 color="black"/>
+		<label4 color="black"/>
+	</tile>
+</patternTiles>
